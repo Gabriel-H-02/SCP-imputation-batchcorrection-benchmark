@@ -61,7 +61,7 @@ The pipeline is organized in 17 sequential R scripts:
 | `16_2_Volcano_Plot_LIMPA_Set.R` | Volcano plot — LIMPA Set + comparative panel |
 | `16_3_Volcano_Plot_QRILC.R` | Volcano plot — QRILC vs LIMPA Set panel |
 | `16_4_Volcano_Plot_LIMPA_lcbatch.R` | Volcano plot — 3-variant LIMPA comparison panel |
-| `17_benchmark_tiempos.R` | Computational efficiency benchmark |
+
 
 ---
 
