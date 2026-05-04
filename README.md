@@ -28,7 +28,7 @@ The pipeline benchmarks six downstream analysis workflows combining three missin
 
 ## Pipeline Structure
 
-The pipeline is organized in 17 sequential R scripts:
+The pipeline is organized in 29 sequential R scripts:
 
 | Script | Description |
 |--------|-------------|
@@ -55,12 +55,12 @@ The pipeline is organized in 17 sequential R scripts:
 | `14_analisis_probabilistico_LIMPA.R` | LIMPA pipeline — base model (no batch correction) |
 | `14_1_analisis_probabilistico_LIMPA_lcbatch.R` | LIMPA pipeline — lcbatch covariate (2 levels) |
 | `14_2_analisis_probabilistico_LIMPA_set.R` | LIMPA pipeline — Set covariate (133 plates) |
-| `15_1_benchmark_final.R` | Visual benchmarking — 6 PCA panels |
-| `15_2_metricas_cuantitativas.R` | Quantitative benchmarking — ASW, ARI, N_sig, Overlap |
+| `15_benchmark_final.R` | Visual benchmarking — 6 PCA panels |
+| `15_1_metricas_cuantitativas.R` | Quantitative benchmarking — ASW, ARI, N_sig, Overlap |
 | `16_Volcano_Plot_LIMPA.R` | Volcano plot — LIMPA base |
-| `16_2_Volcano_Plot_LIMPA_Set.R` | Volcano plot — LIMPA Set + comparative panel |
-| `16_3_Volcano_Plot_QRILC.R` | Volcano plot — QRILC vs LIMPA Set panel |
-| `16_4_Volcano_Plot_LIMPA_lcbatch.R` | Volcano plot — 3-variant LIMPA comparison panel |
+| `16_1_Volcano_Plot_LIMPA_Set.R` | Volcano plot — LIMPA Set + comparative panel |
+| `16_2_Volcano_Plot_QRILC.R` | Volcano plot — QRILC vs LIMPA Set panel |
+| `16_3_Volcano_Plot_LIMPA_lcbatch_comparativa.R` | Volcano plot — 3-variant LIMPA comparison panel |
 
 
 ---
